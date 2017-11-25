@@ -146,7 +146,7 @@ for item in items:
 
 items = table_service.query_entities('itemstable', filter="PartitionKey eq 'coffeeinv'", select='brand,flavor')
 for item in items:
-    print('Brand: ' + item.brnad)
+    print('Brand: ' + item.brand)
     print('Flavor: ' + str(item.flavor) + '\n')
 
 time.sleep(1)
