@@ -111,7 +111,7 @@ coffee.RowKey='004'
 coffee.brand = 'Dunkin'
 coffee.flavor='Mocha'
 coffee.cupsize='Small'
-coffe.pricepercup='$5.50'
+coffee.pricepercup='$5.50'
 
 table_service.insert_entity('itemstable', coffee)
 print('Created entry for a Dunkin Mocha...\n')
@@ -123,7 +123,7 @@ coffee.RowKey='005'
 coffee.brand = 'StarBucks'
 coffee.flavor='Vanilla'
 coffee.cupsize='Tall'
-coffe.pricepercup='$6.00'
+coffee.pricepercup='$6.00'
 
 table_service.insert_entity('itemstable', coffee)
 print('Created entry for a StarBucks Vanilla...\n')
